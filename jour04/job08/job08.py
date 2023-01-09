@@ -1,12 +1,11 @@
-def liste():
-    L = [8,24,27,48,2,16,9,7,84,91]
-    n=len(L)
-    i=0
-    j=0
-    while n>i:
-        if L[i] % 2 == 0:
-            j=j+L[i]
+def sum_value_pair():
+    L = [8, 24, 27, 48, 2,16, 9, 7, 84, 91]
+    sum_pair = 0
+    for i in L:
+        if i % 2 == 0:
+            sum_pair +=i
+    print(sum_pair)
+    
+    
 
-        i+=1
-    print(j)
-liste()
+sum_value_pair()
